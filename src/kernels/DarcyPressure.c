@@ -12,16 +12,17 @@ DarcyPressure::validParams()
   return params;
 }
 
+
 DarcyPressure::DarcyPressure(const InputParameters & parameters)
   : ADKernelGrad(parameters),
 
     // Set the coefficients for the pressure kernel
     _permeability(0.8451e-09),
-    _visccd ~/projects/moose
-git fetch origin
-git rebase origin/masterosity(7.98e-04)
-{
-}
+    _viscosity(7.98e-04)
+  {
+
+  }
+
 
 ADRealVectorValue
 DarcyPressure::precomputeQpResidual()
